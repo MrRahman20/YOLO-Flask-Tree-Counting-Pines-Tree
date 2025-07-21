@@ -1,0 +1,45 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .tree-trunk { fill: #8B4513; }
+      .tree-top { fill: #228B22; }
+      .grid { stroke: #000; stroke-width: 1; opacity: 0.3; }
+      .magnifier-glass { fill: #FFEB3B; stroke: #000; stroke-width: 2; }
+      .magnifier-handle { stroke: #000; stroke-width: 2; fill: #000; }
+    </style>
+  </defs>
+  <!-- Trees -->
+  <g id="trees">
+    <!-- Tree 1 -->
+    <rect class="tree-trunk" x="120" y="400" width="20" height="60"/>
+    <polygon class="tree-top" points="130,360 170,420 90,420"/>
+    <!-- Tree 2 -->
+    <rect class="tree-trunk" x="320" y="350" width="20" height="60"/>
+    <polygon class="tree-top" points="330,310 370,370 290,370"/>
+    <!-- Tree 3 -->
+    <rect class="tree-trunk" x="520" y="370" width="20" height="60"/>
+    <polygon class="tree-top" points="530,330 570,390 490,390"/>
+  </g>
+  <!-- Grid -->
+  <g id="grid">
+    <!-- Horizontal lines -->
+    <line class="grid" x1="0" y1="100" x2="800" y2="100"/>
+    <line class="grid" x1="0" y1="200" x2="800" y2="200"/>
+    <line class="grid" x1="0" y1="300" x2="800" y2="300"/>
+    <line class="grid" x1="0" y1="400" x2="800" y2="400"/>
+    <line class="grid" x1="0" y1="500" x2="800" y2="500"/>
+    <!-- Vertical lines -->
+    <line class="grid" x1="100" y1="0" x2="100" y2="600"/>
+    <line class="grid" x1="200" y1="0" x2="200" y2="600"/>
+    <line class="grid" x1="300" y1="0" x2="300" y2="600"/>
+    <line class="grid" x1="400" y1="0" x2="400" y2="600"/>
+    <line class="grid" x1="500" y1="0" x2="500" y2="600"/>
+    <line class="grid" x1="600" y1="0" x2="600" y2="600"/>
+    <line class="grid" x1="700" y1="0" x2="700" y2="600"/>
+  </g>
+  <!-- Magnifying Glass -->
+  <g id="magnifying-glass" transform="translate(500, 100)">
+    <circle class="magnifier-glass" cx="0" cy="0" r="50"/>
+    <line class="magnifier-handle" x1="30" y1="30" x2="80" y2="80"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+Step by Step instalasi
+=======================================
+1. Install library yang di butuhkan atau bisa menjalankan file yang bernama (requirements.txt)
+   Jalankan perintah berikut: (pip install -r requirements.txt)
+2. Sesuaikan path penyimpanan data pada laptop
+3. Jalankan file treecounting.py dan buka website melalui link yang di tampilkan
+
+#NOTES
+Jika terjadi eror pada modul ultranalytic 
+untuk mengatasinya silahkan upgrade library tersebut 
